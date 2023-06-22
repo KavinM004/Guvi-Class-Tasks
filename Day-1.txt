@@ -1,1 +1,26 @@
-Hello Guvi!!
+1)Difference Of HTTP1 Vs HTTP2 ?
+
+Ans : HTTP1 is reuse of the program,it faster than the HTTP,by it communicate from one to one another compuer.
+      HTTP2 is more faster than HTTP1,it refresh page by clicked it presents the current page content from the Sotred of cache Memory,by HTTP2 it communicates with multiple computer with a same time.
+
+
+2)IP Address ?
+
+Ans : IP stands for Internet portocol,its consists of numbers,it's direct path to reach the sever directly.
+
+3)Port Address ?
+
+Ans : Port address means After the IP Address colon consists number is known as port address.
+
+4)HTTP Methods ?
+
+Ans : HTTP Methods are diveded by four,Simply known as CRUD Operation.
+            * C stands for Create.
+            * R stands for Read.
+            * U stands for Update.
+            * D stands for Delete.
+
+5)Mac Address ?
+
+Ans : Mac Address is unique address,it uses to block some websites.
+      eg : parents modified some settings on devices to child don't access some websites.
