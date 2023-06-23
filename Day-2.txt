@@ -1,1 +1,15 @@
-hi
+1) Windows Object?
+
+Ans : Window object opens a Window in browser.
+      windows Object,Document Contains of frame tags
+      Browser opens One Window Objects that contains Documents(HTML).
+      It contains of links,buttons,new tabs etc...,
+      Eg. Magical Window is Example of Windows Objects.
+
+2) Document Object?
+
+Ans : Browser opens HTML document,thats to be a Document object.
+      It Contains of images,text,scripts stc...,
+      Document Object is property of Windows Object.
+      Document Object - is root of HTML document.
+      Document object is accessed by "window.document" & "document".
