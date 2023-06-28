@@ -1,10 +1,24 @@
-let obj1 = {Name : "Person1",age : 5};
-let obj2 = {age : 5,Name : "Person1"};
-
-let kavin = (obj1,obj2) => {
-    let obj1 = Object.keys(obj1);
-    let obj2 = Object.keys(obj2);
-    if()
+let kavin = '{"name":"Kavin","Age":32}';
+let nivak = '{"Age":32,"name":"Kavin"}';
+function muthSamy(kavin,nivak){
+let karthick=JSON.parse(kavin);
+let kcihtrak=JSON.parse(nivak);
+  if(Object.keys(karthick).length !=Object.keys(kcihtrak).length){
+    return false;
+  }
+  for(let key in karthick){
+    if(!kcihtrak.hasOwnProperty(key)||karthick[key]!==kcihtrak[key]){
+        return false;
+    }
+  }
+  for(let key in kcihtrak){
+    if(!karthick.hasOwnProperty(key)||kcihtrak[key]!==karthick[key]){
+        return false;
+    }
+  }
+  return true;
 }
+let j=muthSamy(kavin,nivak);
+console.log(j);
 
 
