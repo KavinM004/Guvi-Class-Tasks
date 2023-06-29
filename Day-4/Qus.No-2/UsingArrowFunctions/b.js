@@ -1,10 +1,10 @@
 let kavin=()=>{
-    let kavin="kavin is good boy";
-let kar=kavin.split(" ");
-for(let i=0;i<kar.length;i++){
-    kar[i]=kar[i].charAt(0).toUpperCase()+kar[i].slice(1);
-}
-let nivak=kar.join(" ");
-console.log(nivak);
+    let array=["hi!","kavin",",","welcome","to","vs","code."];
+    array.forEach((word,index)=>{
+        let firstLetter = word.charAt(0).toUpperCase();
+        let kar = word.slice(1).toLowerCase();
+        array[index]=firstLetter+kar;
+    });
+    console.log(array);
 }
 kavin();
