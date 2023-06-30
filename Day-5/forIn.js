@@ -5,4 +5,4 @@
     let kar=a[key];
     console.log(key+" "+":"+" "+kar);
  }
-})()
+})()  
