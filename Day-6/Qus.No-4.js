@@ -1,11 +1,21 @@
-class Calculate{
-    constructer(ridePrice,Gst){
-        this.fix=ridePrice;
-        this.tax=Gst;
+class UberCalculator {
+    constructor(distance, duration) {
+      this.distance = distance;
+      this.duration = duration;
     }
-    calNum(){
-        return this.fix+this.tax;
+    calculatePrice() {
+      let Gst = 2.5;
+      let costPerKilometer = 1.5; 
+      let costPerMinute = 0.2; 
+  
+      let distanceCost = this.distance * costPerKilometer;
+      let durationCost = this.duration * costPerMinute;
+      let totalPrice = Gst + distanceCost + durationCost;
+  
+      return totalPrice.toFixed(2);
     }
-}
-let ka=new Calculate(345,88);
-console.log(ka);//output!!
+  }
+  let calculator = new UberCalculator(10, 30);
+  let totalPrice = calculator.calculatePrice();
+  console.log(`The estimated Uber price is : ${totalPrice}`);
+  
