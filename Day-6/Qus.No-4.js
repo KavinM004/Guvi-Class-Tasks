@@ -8,4 +8,4 @@ class Calculate{
     }
 }
 let ka=new Calculate(345,88);
-console.log(ka);
+console.log(ka);//output!!
