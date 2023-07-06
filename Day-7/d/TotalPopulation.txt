@@ -1,0 +1,14 @@
+//Note:Runs On Developer Tool 'Console Tab' ;
+
+fetch('https://restcountries.com/v3.1/all')
+  .then(response => response.json())
+  .then(data => {
+    const countries = data;
+
+    const totalPopulation = countries.reduce((acc, country) => acc + country.population, 0);
+
+    console.log('Total population of all countries:', totalPopulation);
+  })
+  .catch(error => {
+    console.log('Error:', error);
+  });
