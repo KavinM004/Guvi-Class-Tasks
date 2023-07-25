@@ -1,0 +1,9 @@
+*{
+    background-color: orangered;
+    color: hotpink;
+}
+#countdown{
+    margin: 450px 650px;
+    font-family: fantasy;
+    font-size: xx-large;
+}
