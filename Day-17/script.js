@@ -22,7 +22,7 @@ const loadCountryAPI = () =>{
         <h4 style="text-align:center;font-style:">Population : ${country.population}</h4>
         <h4 style="text-align:center;font-style:">Regoin : ${country.region}</h4>
         <h4 style="text-align:center;font-style:">Country Code : ${country.cca2}</h4>
-        <button>click to view weather</button>
+        <button onclick="">click to view weather</button>
         </div>
     `
   }
