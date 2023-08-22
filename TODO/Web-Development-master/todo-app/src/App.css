@@ -106,7 +106,7 @@ h1{
 .todo-list{
   display: flex;
   flex-direction: column;
-  border-radius: 25px;
+  border-radius: 2px solid 25px;
 }
 
 .todo-list-item{
